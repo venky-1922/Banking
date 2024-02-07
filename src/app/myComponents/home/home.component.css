@@ -1,0 +1,23 @@
+.card {
+  color: inherit;
+  background-color: inherit;
+}
+.card .btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 110px;
+  color: black;
+  font-size: 12px;
+}
+.card h2 {
+  font-size: 50px;
+}
+.card .below-text {
+  margin-top: -15px;
+  font-size: 12px;
+}
+
+.description {
+  font-size: 13px;
+  color: grey;
+}/*# sourceMappingURL=home.component.css.map */

@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'banking';
+   nav_Btn1:String="SignIn";
+   nav_Btn2:String="SignUp";
+   home_Btn1:String="Try Now";
+   home_Btn2:String="Learn More";
 }

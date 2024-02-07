@@ -1,0 +1,48 @@
+.card {
+  color: inherit;
+  background-color: inherit;
+  border: none;
+  .btn {
+    width: fit-content;
+    min-width: 110px;
+    color: black;
+    font-size: 12px;
+  }
+  .learn-more {
+    &:hover {
+      background-color: inherit;
+    }
+  }
+  .iphone {
+    .col-md-12 {
+      padding-top: 300px;
+    }
+  }
+  h2 {
+    font-size: 50px;
+  }
+  .below-text {
+    margin-top: -15px;
+    font-size: 12px;
+  }
+}
+.description {
+  font-size: 13px;
+  color: grey;
+}
+.radial-glow {
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  height: 600px;
+  //   border-radius: 50%;
+  width: 100%;
+  background: radial-gradient(
+    ellipse 60% 80% at center bottom,
+    white,
+    #9c8edb,
+    #4e48a8,
+    transparent 80%
+  );
+}
